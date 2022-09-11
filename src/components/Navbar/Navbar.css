@@ -1,0 +1,16 @@
+.logo {
+    width: 70px;
+}
+
+.mobileSidebar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar_header Button {
+    text-transform: none;
+}
+
+.navbar_header ListItemText {
+    text-transform: none;
+}

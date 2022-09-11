@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Team from "./components/Team/Team";
+import WhatWeDo from "./components/WhatWeDo/WhatWeDo";
+import Contact from "./components/Contact/Contact";
+import WhatIsGlobx from "./components/WhatIsGlobx/WhatIsGlobx";
+import WhoWeAre from "./components/WhoWeAre/WhoWeAre";
+import "./App.css";
+import Banner from "./components/Banner/Banner";
+
+import { useRef } from "react";
 
 function App() {
+  const resultRef = useRef(null);
+  const resultReftwo = useRef(null);
+  const resultRefThree = useRef(null);
+  const resultRefFour = useRef(null);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar
+        resultRef={resultRef}
+        resultReftwo={resultReftwo}
+        resultRefThree={resultRefThree}
+        resultRefFour={resultRefFour}
+      />
+      <Banner />
+      <WhatIsGlobx ref={resultRef} />
+      <hr />
+      <WhoWeAre ref={resultReftwo} />
+      <hr />
+
+      <WhatWeDo />
+      <Team ref={resultRefThree} />
+      <Contact ref={resultRefFour} />
+
+      <Footer />
     </div>
   );
 }

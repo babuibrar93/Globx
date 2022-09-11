@@ -1,0 +1,18 @@
+.mainFooter {
+  position: absolute;
+  /* bottom: 0; */
+  width: 100%;
+  min-height: 10vh;
+  /* height: 60px;  */
+  background: black;
+  border-top: 1px solid white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+  color: white;
+  font-weight: bolder;
+}

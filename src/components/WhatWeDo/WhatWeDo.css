@@ -1,0 +1,87 @@
+.WhatWeDo {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  margin-top: 50px;
+
+}
+
+.images {
+  width: 100px;
+  height: 100px;
+}
+
+.lineSplit {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.WhatWeDoCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.cards {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px 20px 20px 20px;
+  border-radius: 8px;
+  width: 332px;
+  height: 200px;
+}
+
+.cardsTwo {
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px 20px 20px 20px;
+  border-radius: 8px;
+  width: 332px;
+  height: 200px;
+}
+
+@media screen and (max-width: 800px) {
+  .cards {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 10px 10px 10px !important;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .WhatWeDoCards {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+    /* justify-content: space-between !important; */
+  }
+  
+  .cardsTwo {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 10px 10px 10px !important;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+  }
+}

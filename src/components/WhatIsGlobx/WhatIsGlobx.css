@@ -1,0 +1,27 @@
+.WhatIsGlobx {
+  margin: 20px;
+  text-align: center;
+}
+
+.WhatIsGlobx h4:nth-of-type(1) {
+  white-space: pre-wrap;
+  color: white;
+  font-weight: bolder;
+}
+
+.WhatIsGlobx h1 {
+  white-space: pre-wrap;
+  font-weight: bolder;
+  margin-top: 3%;
+  line-height: 50px;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.paragraph {
+    font-size: 22px;
+    margin: 16px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}

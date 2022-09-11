@@ -1,0 +1,194 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-top: 100px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.addcategory_textarea_sub {
+  width: 100%;
+  height: 150px;
+  background: #ffffff;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.015em;
+  /* border: none; */
+  padding: 10px 10px;
+  color: black;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.input_field_login {
+  padding: 12px;
+  margin: 6px 0 4px;
+  border: 1px solid #ccc;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: normal;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 350px;
+}
+
+.input_field_login::placeholder {
+  color: white;
+}
+
+.input_field_login_email {
+  padding: 12px;
+  margin: 6px 0 4px;
+  border: 1px solid #ccc;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: normal;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.input_field_login_email::placeholder {
+  color: white;
+}
+
+.input_filed_phone {
+  padding: 12px;
+  margin: 6px 0 4px;
+  border: 1px solid #ccc;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: normal;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 80px;
+}
+.input_message {
+  height: 100px;
+}
+
+/* .input_field_login:focus {
+  background: gray;
+  transition: background 0.1s ease-in;
+  transition-property: background;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
+} */
+.width100 {
+  width: 100%;
+}
+.div_label_input {
+  display: flex;
+  gap: 30px;
+}
+.div_div_label_input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.dflex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.justifycontentstart {
+  justify-content: flex-start;
+}
+.flexdirection {
+  flex-direction: column;
+}
+.div_input_phone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.btn_submit {
+  background-color: black;
+  padding: 4px 16px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.btn_submit:hover {
+  background-color: white;
+  padding: 4px 16px;
+  border-radius: 10px;
+  color: black;
+  border: 2px solid black;
+}
+
+.fontSize24 {
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+.white_color {
+  color: #fff;
+}
+
+.input_field_login.error {
+  border-color: red;
+}
+
+.input-feedback {
+  color: red;
+  margin-top: 0.25rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input_field_login {
+    padding: 12px;
+    margin: 6px 0 4px;
+    border: 1px solid #ccc;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: normal;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 100% !important;
+  }
+
+  .touch {
+    align-items: center;
+  }
+
+  .css-pm3uxj {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .form {
+    margin-top: 30px;
+  }
+}

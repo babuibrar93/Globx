@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.App hr {
+  color: white;
+  border: 1px solid white;
 }
 
 .App-logo {
